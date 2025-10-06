@@ -1,6 +1,0 @@
-runpod
-torch
-torchaudio
-transformers
-faster-whisper
-scipy
