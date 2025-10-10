@@ -2,6 +2,7 @@ FROM nvidia/cuda:12.1.1-base-ubuntu22.04
 
 WORKDIR /app
 
+# 🔸 Gerekli sistem bağımlılıklarını eksiksiz kur
 RUN apt-get update && apt-get install -y \
     python3 python3-pip git libsox-dev ffmpeg build-essential cmake rustc cargo pkg-config \
     && rm -rf /var/lib/apt/lists/*
